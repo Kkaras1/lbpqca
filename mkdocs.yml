@@ -6,9 +6,6 @@ site_author: "Kamil Karaś"
 
 plugins:
   - search
-  - coverage:
-      page_path: development/coverage
-      html_report_dir: docs/html/htmlcov
   - mkdocs-jupyter:
       execute: false
       include_source: true
@@ -81,3 +78,4 @@ nav:
       - LWE primal attack: example/lwe_primal_attack.ipynb
       - LWE dual attack: example/lwe_dual_attack.ipynb
       - LWR attack: example/lwr_attack.ipynb
+
