@@ -1,3 +1,9 @@
+#The following code was adapted from
+#Source: https://github.com/MikolajLH/pqlattice
+#Author: Mikołaj Leonhardt
+#License: MIT
+
+
 import numpy as np
 from typing import Any, Tuple, Callable, TypeAliasType
 from inspect import signature
